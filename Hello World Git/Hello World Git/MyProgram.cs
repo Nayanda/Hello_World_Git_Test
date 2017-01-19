@@ -7,15 +7,14 @@ using System.Threading.Tasks;
 namespace Hello_World_Git
 {
 
-    class Program
+    class MyProgram
     {
 
-        static void Main ( string[] args )
-        {
+        public void Run ()
+        { 
 
-            MyProgram myProgram = new MyProgram ();
+            Console.WriteLine ( "Hello World!" );
 
-            myProgram.Run (); 
 
         }
 
